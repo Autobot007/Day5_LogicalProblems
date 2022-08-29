@@ -8,7 +8,7 @@
             Console.WriteLine("==========================");
 
 
-            Console.WriteLine("\n\n Enter Number to run program\n\n 1.Flip Coin \n");
+            Console.WriteLine("\n\n Enter Number to run program\n\n1.Flip Coin \n2.Leap Year");
             int entry= Convert.ToInt32(Console.ReadLine());
 
             switch (entry)
@@ -17,7 +17,7 @@
                     FlipCoin.FlipPercent();
                     break;
                 case 2:
-
+                    LeapYear.LeapYearMethod();
                     break;
             }
         }
