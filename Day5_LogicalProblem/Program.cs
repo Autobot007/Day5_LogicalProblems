@@ -8,7 +8,7 @@
             Console.WriteLine("==========================");
 
 
-            Console.WriteLine("\n\n Enter Number to run program\n\n1.Flip Coin \n2.Leap Year\n3.Power of 2\n4.Harmonic Number");
+            Console.WriteLine("\n\n Enter Number to run program\n\n1.Flip Coin \n2.Leap Year\n3.Power of 2\n4.Harmonic Number\n5.Factors");
             int entry= Convert.ToInt32(Console.ReadLine());
 
             switch (entry)
@@ -25,6 +25,9 @@
                 case 4:
                     HarmonicNumber.HarmonicNumberMethod();
                     break ;
+                case 5:
+                    Factors.PrimeFactorisation();
+                    break;
 
             }
         }
